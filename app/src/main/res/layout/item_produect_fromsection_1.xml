@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layoutDirection="rtl"
+    android:gravity="center"
+    app:cardMaxElevation="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_gravity="center"
+        android:id="@+id/linear_produect_category"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/image_product_category"
+            android:src="@mipmap/sharpest_logo"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            />
+
+
+        <TextView
+            android:id="@+id/text_name_product_category"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="name"
+            android:gravity="center|right"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="19dp"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/text_detailes_product_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="تفاصيل اكتر"
+            android:gravity="center|right"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:background="@drawable/textback"
+            />
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

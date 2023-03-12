@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="164dp"
+    android:id="@+id/card_inside_listhome"
+    app:cardUseCompatPadding="true"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/image_insidelistHome"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/sharpest_logo"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="11dp"
+            android:orientation="vertical"
+            android:background="@color/colorApp"
+            >
+
+            <TextView
+                android:gravity="center"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:id="@+id/text_id_Home"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:text="more" />
+
+
+
+            <TextView
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:id="@+id/text_name_partlist_Home"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/text_all_Prodect_partlist_Home"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/textback"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:gravity="center|left"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:text=""
+                />
+
+
+
+<!--            android:text="تفاصيل اكثر"-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

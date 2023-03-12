@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".UI.service_Responce.DesginAndPrograming">
+
+
+    <LinearLayout
+        android:paddingBottom="44dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="-9sp"
+            android:text="اطلب الخدمة"
+            />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="38sp"
+            android:gravity="end"
+            android:text="التصميم والبرمجة "
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            />
+
+
+        <TextView
+            android:id="@+id/price_offer"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:lineSpacingExtra="38sp"
+            android:gravity="end"
+            android:text=" "
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            />
+
+
+        <EditText
+            android:id="@+id/ed_name_designPrograming"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_person"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="اسم العميل"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/ed_phone_designPrograming"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_phone"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="التليفون"
+            android:inputType="phone"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/busin2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            >
+
+
+            <EditText
+                android:background="@drawable/busin2"
+                android:id="@+id/ed_location_designPrograming"
+                android:drawablePadding="8dp"
+                android:drawableRight="@drawable/ic_location"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:hint="العنوان"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="54dp"
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                />
+
+            <ImageView
+                android:id="@+id/image_Location_desgin_programing"
+                android:layout_width="0dp"
+                android:layout_weight=".7"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_location_1"
+                />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/ed_desgin_designPrograming"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_desgign"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="التصميم المطلوب"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/ed_materal_designPrograming"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_sync_black_24dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="الخامة المستخدمة"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/ed_dimantion_designPrograming"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="الابعاد والسمك"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/ed_machinUsed_designPrograming"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_used"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="الماكينة المستخدمة"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_getimagee_designandPrograming"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="right|center"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:drawableLeft="@mipmap/photo"
+                android:textSize="17dp"
+                android:textColor="#645e62"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="5sp"
+                android:text="إضافة صورة"
+                />
+
+            <TextView
+                android:id="@+id/text_getimagee_hiden_designandPrograming"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="right|center"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                android:textSize="17dp"
+                android:textColor="#645e62"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="5sp"
+                android:text="تم تحميل  صورة"
+                />
+        </RelativeLayout>
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_getimagee_designandPrograming"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:gravity="right|center"-->
+<!--            android:layout_marginRight="17dp"-->
+<!--            android:layout_marginLeft="17dp"-->
+<!--            android:drawableLeft="@mipmap/photo"-->
+<!--            android:textSize="17dp"-->
+<!--            android:fontFamily="@font/hacenalgeria"-->
+<!--            android:textColor="#645e62"-->
+<!--            android:letterSpacing="0.01"-->
+<!--            android:lineSpacingExtra="5sp"-->
+<!--            android:text="إضافة صورة"-->
+<!--            />-->
+
+        <Button
+            android:id="@+id/bu_request_designPrograming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/busin"
+            android:text="اطلب الأن"
+            android:textColor="#fff"
+            android:textSize="23dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

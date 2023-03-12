@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowFullscreen">false</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Larger_Drawable">
+        <item name="android:textSize">10sp</item>
+        <item name="android:scaleX">1.6</item>
+        <item name="android:scaleY">1.6</item>
+    </style>
+
+    <style name="Normal_Drawable">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Smaller_Drawable">
+        <item name="android:textSize">20sp</item>
+        <item name="android:scaleX">0.8</item>
+        <item name="android:scaleY">0.8</item>
+    </style>
+
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorTextDetals</item>
+        <item name="fontFamily">@font/medium</item>
+    </style>
+
+
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+
+
+    <style name="Style_TextView_in_menu">
+        <item name="fontFamily">@font/medium</item>
+    </style>
+
+</resources>

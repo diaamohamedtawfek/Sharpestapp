@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group android:id="@+id/first_section" android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            app:itemTextAppearance="@style/Style_TextView_in_menu"
+            android:title="الرئيسية" />
+    </group>
+
+
+
+    <group android:id="@+id/first_secdtion" android:checkableBehavior="all">
+    <item
+        android:id="@+id/nav_muOrder"
+        app:itemTextAppearance="@style/Style_TextView_in_menu"
+        android:icon="@mipmap/myorder"
+        android:title="سجل التعاملات " />
+    </group>
+
+
+
+    <group android:id="@+id/first_secdtion3" android:checkableBehavior="all">
+    <item
+        android:id="@+id/notification_muOrder"
+        app:itemTextAppearance="@style/Style_TextView_in_menu"
+        android:icon="@mipmap/notification"
+        android:title="العروض " />
+    </group>
+
+
+    <group android:id="@+id/firsts_section" android:checkableBehavior="all">
+
+    <item
+        android:visible="false"
+        android:id="@+id/nav_myCources"
+        android:icon="@mipmap/curce"
+        android:title="كورساتي " />
+
+    </group>
+
+
+    <group android:id="@+id/first_ssection" android:checkableBehavior="all">
+    <item
+        android:id="@+id/nav_aboutUs"
+        android:icon="@drawable/ic_error_24"
+        android:title="من نحن" />
+    </group>
+
+    <group android:id="@+id/fairst_section" android:checkableBehavior="all">
+    <item
+        android:id="@+id/nav_ConnectUs"
+        android:icon="@drawable/ic_call"
+        android:title="اتصل بنا " />
+
+
+    </group>
+
+    <group android:id="@+id/fsirst_section" android:checkableBehavior="all">
+
+    <item
+        android:id="@+id/nav_ChangePassword"
+        android:icon="@drawable/ic_lock"
+        android:title="تغيير الرقم السري" />
+
+    </group>
+
+    <group android:id="@+id/first_sectwion" android:checkableBehavior="all">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@mipmap/profiles"
+        android:title="اعدادات الصفحه الشخصيه " />
+
+    </group>
+
+    <group android:id="@+id/fiwrst_section" android:checkableBehavior="all">
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@mipmap/logout"
+        android:title="تسجيل الخروج " />
+
+    </group>
+
+
+</menu>
+
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <group android:id="@+id/first_section" android:checkableBehavior="all">-->
+<!--        <item-->
+<!--            android:id="@+id/frontpage"-->
+<!--            android:icon="@drawable/ic_person"-->
+<!--            android:title="/drawer_frontpage" />-->
+<!--        <item-->
+<!--            android:id="@+id/search"-->
+<!--            android:icon="@drawable/ic_person"-->
+<!--            android:title="/drawer_search" />-->
+<!--    </group>-->
+<!--    <group android:id="@+id/second_section" android:checkableBehavior="all">-->
+<!--        <item-->
+<!--            android:id="@+id/events"-->
+<!--            android:icon="@drawable/ic_person"-->
+<!--            android:title="/drawer_events" />-->
+<!--    </group>-->
+
+<!--    <group android:id="@+id/second_sectiofn" android:checkableBehavior="all">-->
+<!--        <item-->
+<!--            android:id="@+id/evenfts"-->
+<!--            android:icon="@drawable/ic_person"-->
+<!--            android:title="/drawer_events" />-->
+<!--    </group>-->
+<!--</menu>-->

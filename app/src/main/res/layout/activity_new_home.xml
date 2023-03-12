@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home.NewHome">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_height="match_parent"
+        >
+
+        <!-- first section  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_picemachine"
+                android:background="@color/colorApp"
+                android:layout_margin="22dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardElevation="5dp"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/colorApp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:src="@drawable/ic_person"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18.8sp"
+                        android:textColor="#fff"
+                        android:letterSpacing="0.04"
+                        android:lineSpacingExtra="1.3sp"
+                        android:gravity="center"
+                        android:text="قطع الغيار"
+                        />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_machine"
+                app:cardMaxElevation="5dp"
+                app:cardElevation="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:layout_margin="22dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:src="@drawable/ic_person"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18.8sp"
+                        android:textColor="#1a3556"
+                        android:letterSpacing="0.04"
+                        android:lineSpacingExtra="1.3sp"
+                        android:gravity="center"
+                        android:text="ماكينات"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+        <!-- 2 section  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_service"
+                app:cardMaxElevation="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                android:background="@color/colorApp"
+                android:layout_margin="22dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:src="@drawable/ic_person"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18.8sp"
+                        android:textColor="#1a3556"
+                        android:letterSpacing="0.04"
+                        android:lineSpacingExtra="1.3sp"
+                        android:gravity="center"
+                        android:text="خدمتنا"
+                        />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_courses"
+                app:cardMaxElevation="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:layout_margin="22dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:src="@drawable/ic_person"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18.8sp"
+                        android:textColor="#1a3556"
+                        android:letterSpacing="0.04"
+                        android:lineSpacingExtra="1.3sp"
+                        android:gravity="center"
+                        android:text="دورات تدريبيه"
+                        />
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_account_profile"
+        android:layout_width="252dp"
+        android:layout_height="252dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circal_withe"
+        android:layout_centerInParent="true"
+        app:civ_border_color="#ddd"
+        app:civ_border_width="2dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_account_fprofile"
+        android:layout_width="222dp"
+        android:layout_height="222dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circal_withe"
+        android:layout_centerInParent="true"
+        app:civ_border_color="#1f2f44"
+        app:civ_border_width="2dp" />
+
+    <ImageView
+        android:id="@+id/imageview_accounsdt_profile"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/sharpest_logo"
+        android:layout_centerInParent="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        app:cardPreventCornerOverlap="true"
+        app:cardMaxElevation="5dp"
+        app:cardElevation="5dp"
+        android:layout_width="222dp"
+        android:layout_height="222dp"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</RelativeLayout>

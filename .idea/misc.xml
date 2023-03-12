@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_desgin_and_programing.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_details__coursses.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_details__product.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_new_home.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_photo3d.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_produect__categry.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_seana.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/activity_up_date_profile.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/content_home.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/dilog_customdilog_reqest_cource.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/done_add_request.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_about_us.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/fragment_change_password.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_contact_us.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/fragment_courses.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_my_courses.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_my_order.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_my_profile.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_my_service_my_order_.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_offers.xml" value="0.15704154002026344" />
+        <entry key="app/src/main/res/layout/fragment_parts.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_pice_machine_fragment.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_prodect.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_show__courses.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_show__myoder.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_content_cource.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_coursess.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_coursess_myorder.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_detiels_cource.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_home_favorite.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_home_inside_list.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_home_list_in_list.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_list_detiles_items.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_listmoderfragment.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_offers.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/item_produect_fromsection_1.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/menu_items.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.18568840579710144" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

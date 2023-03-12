@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".Home.uiFragment.MyProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_gravity="center"
+                    android:layout_marginTop="44dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/image_profile"
+                    android:src="@mipmap/sharpestlogo"
+                    />
+
+                <TextView
+                    android:id="@+id/username_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="name"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginTop="9dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="9dp"
+                    android:weightSum="4"
+                    >
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:id="@+id/email_profile"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="الاميل"
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="الاميل"
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_marginTop="9dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="9dp"
+                    android:weightSum="4"
+                    >
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:id="@+id/name_profile"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text=""
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="الاسم"
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_marginTop="9dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="9dp"
+                    android:weightSum="4"
+                    >
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:id="@+id/phone_profile"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text=""
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="الهاتف"
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_marginTop="9dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="9dp"
+                    android:weightSum="4"
+                    >
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:id="@+id/address_profile"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text=""
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="العنوان"
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_marginTop="9dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="9dp"
+                    android:weightSum="4"
+                    >
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:id="@+id/phonewhats_profile"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="الواتس اب"
+                        android:gravity="center|right"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_update_profile"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/colorApp"
+                android:src="@drawable/ic_edit_black_24dp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

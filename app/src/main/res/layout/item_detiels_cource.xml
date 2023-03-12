@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center"
+        android:gravity="center|right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center|right"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/date"
+            />
+        <TextView
+            android:id="@+id/text_place_found"
+            android:layout_marginRight="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4sp"
+            android:drawablePadding="17dp"
+            android:text="الاماكن المتاحة للحجز : 5 أفراد"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center"
+        android:gravity="center|right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center|right"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/time"
+            />
+
+        <TextView
+            android:id="@+id/text_timedateCourse"
+            android:layout_marginRight="17dp"
+            android:layout_gravity="center|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4sp"
+            android:gravity="center"
+            android:drawablePadding="17dp"
+            android:text="الاماكن المتاحة للحجز : 5 أفراد"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center"
+        android:gravity="center|right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center|right"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/location_2"
+            />
+
+
+        <TextView
+            android:id="@+id/text_location_detielseCource"
+            android:layout_marginRight="17dp"
+            android:layout_gravity="center|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4sp"
+            android:gravity="center"
+            android:drawablePadding="17dp"
+            android:layout_marginBottom="6dp"
+            android:text="الاماكن المتاحة للحجز : 5 أفراد"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTextDetals"
+        />
+
+</LinearLayout>

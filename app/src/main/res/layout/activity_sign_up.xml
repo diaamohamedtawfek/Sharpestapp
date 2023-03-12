@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".Login_Signup.SignUp">
+    <ScrollView
+        android:layout_centerInParent="true"
+        android:layoutDirection="ltr"
+        android:minWidth="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="55dp"
+                android:src="@mipmap/sharpest_logo"
+                android:scaleType="fitXY"
+                android:layout_width="150dp"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:layout_marginTop="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/colorTextDetals"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="6sp"
+                android:gravity="center_horizontal"
+                android:text="إنشاء حساب"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="2sp"
+                android:text="Email"
+                />
+
+
+            <EditText
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:paddingTop="11dp"
+                android:paddingBottom="6dip"
+                android:hint="الاسم"
+                android:id="@+id/ed_name_login"
+                android:layout_width="fill_parent"
+                android:textSize="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:padding="5dip">
+            </EditText>
+
+
+
+
+            <EditText
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:paddingTop="11dp"
+                android:paddingBottom="6dip"
+                android:hint="العنوان"
+                android:id="@+id/ed_address_login"
+                android:layout_width="fill_parent"
+                android:textSize="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:padding="5dip">
+            </EditText>
+
+
+
+            <EditText
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:paddingTop="11dp"
+                android:paddingBottom="6dip"
+                android:hint="الاميل"
+                android:id="@+id/ed_email_login"
+                android:layout_width="fill_parent"
+                android:textSize="17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:padding="5dip">
+            </EditText>
+
+            <EditText
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:paddingTop="11dp"
+                android:paddingBottom="6dip"
+                android:hint="رقم التليفون "
+                android:id="@+id/ed_phone_login"
+                android:layout_width="fill_parent"
+                android:textSize="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="13dip"
+                android:layout_marginRight="10dip"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:padding="5dip">
+            </EditText>
+
+
+            <EditText
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:paddingTop="11dp"
+                android:paddingBottom="6dip"
+                android:hint="الرقم السري"
+                android:id="@+id/ed_password_login"
+                android:layout_width="fill_parent"
+                android:textSize="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="13dip"
+                android:layout_marginRight="10dip"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:padding="5dip">
+            </EditText>
+
+            <EditText
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:paddingTop="11dp"
+                android:paddingBottom="6dip"
+                android:hint="تاكيد الرقم السري "
+                android:id="@+id/ed_repassword_login"
+                android:layout_width="fill_parent"
+                android:textSize="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="13dip"
+                android:layout_marginRight="10dip"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:padding="5dip">
+            </EditText>
+
+
+            <Button
+                android:id="@+id/bu_start_login"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="التالي"
+                android:textColor="#fff"
+                android:background="@color/colorApp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="22dp"
+                />
+
+            <TextView
+                android:textColor="@color/colorTextDetals"
+                android:textColorHint="@color/colorTextDetals"
+                android:id="@+id/text_dignup_login"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:letterSpacing="0.05"
+                android:lineSpacingExtra="8sp"
+                android:gravity="center|right"
+                android:text=" تسجيل الدخول ؟ "
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

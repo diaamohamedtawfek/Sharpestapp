@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardMaxElevation="4dp"
+    android:id="@+id/card_courzses"
+    app:cardElevation="4dp"
+    android:layoutDirection="rtl"
+    app:cardCornerRadius="11dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/image_coursses"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:src="@mipmap/sharpest_logo"
+            />
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:gravity="center|right"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:background="#99b73c"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/text_name_coursses"
+                android:layout_alignParentRight="true"
+                android:gravity="center|right"
+                android:layout_gravity="center|right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:lineSpacingExtra="7sp"
+                android:text="كورس برنامج الأرت كام"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                app:cardCornerRadius="15dp"
+                android:background="#fff"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                >
+
+                <TextView
+                    android:id="@+id/text_onlineor_coursses"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:lineSpacingExtra="-7sp"
+                    android:text="online"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

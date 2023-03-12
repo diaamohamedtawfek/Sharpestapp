@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".UI.UpDateProfile">
+
+
+    <LinearLayout
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--  contact  contact us   -->
+
+        <EditText
+            android:id="@+id/ed_name_updateprofile"
+            android:textColorHint="@color/colorTextDetals"
+            android:layout_gravity="center|right"
+            android:gravity="center|right"
+            android:hint="الاسم "
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/busin1"
+            android:layout_marginTop="22dp"
+            />
+
+
+        <EditText
+            android:id="@+id/ed_address_updateprofile"
+            android:textColorHint="@color/colorTextDetals"
+            android:layout_gravity="center|right"
+            android:gravity="center|right"
+            android:hint="العنوان"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/busin1"
+            android:layout_marginTop="22dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/ed_phone_updateprofile"
+            android:inputType="phone"
+            android:textColorHint="@color/colorTextDetals"
+            android:layout_gravity="center|right"
+            android:gravity="center|right"
+            android:hint="رقم الهاتف"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/busin1"
+            android:layout_marginTop="22dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/ed_phonewhats_updateprofile"
+            android:textColorHint="@color/colorTextDetals"
+            android:paddingTop="11dp"
+            android:layout_gravity="center|right"
+            android:gravity="right|start"
+            android:hint="زقم الواتس اب"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/busin1"
+            android:layout_marginTop="22dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/bu_add_conttactus"
+            android:textColorHint="@color/colorTextDetals"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="ارسال"
+            android:textSize="22dp"
+            android:textColor="#fff"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/busin"
+            android:layout_marginTop="42dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".Home.ui.ContactUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:paddingBottom="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@mipmap/sharpest_logo"
+                android:layout_width="109dp"
+                android:layout_height="100dp"
+                ></ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:textSize="15dp"
+                android:text="الفروع"
+                android:textColor="@color/colorTextDetals"
+                />
+
+
+<!--            Cairo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="فرع القاهرة"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/text_locationCairo"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@drawable/ic_location_on_black_24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="٤٥ شارع نجيب الريحاني الازبكية وسط البلد القاهرة"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/phone1Cairo"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="01144000684"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/phone2Cairo"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="01144000685"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="Cairo branch"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/text_locationCairoEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="45 Naguib Al-rihani st Al-attaba"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/phone1CairoEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"
+                    android:textSize="15dp"
+                    android:text="01144000684"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/phone2CairoEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"
+                    android:textSize="15dp"
+                    android:text="01144000685"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                />
+
+
+
+
+            <!--            اسكندریة-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="فرع اسكندرية"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/text_locationAlex"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@drawable/ic_location_on_black_24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="205  ب ابراج الشرطه شارع الريادة سموحة"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/phone1Alex"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="201144000686+"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/phone2Alex"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="201140709925+"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/phone3Alex"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="2034269518+"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="Alexandria branch"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/text_locationAlexEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="205 Police Towers Alriada st Somoha"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/phone1AlexEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"
+                    android:textSize="15dp"
+                    android:text="+201144000686"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/phone2AlexEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"
+                    android:textSize="15dp"
+                    android:text="+201140709925"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/phone3AlexEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"
+                    android:textSize="15dp"
+                    android:text="+2034269518"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                />
+
+
+
+            <!--            دمیاط-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="فرع دمياط"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/text_locationDamietta"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@drawable/ic_location_on_black_24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="8  شارع ابن مروان متفرع من شارع الجلاء خلف بنك المصري الخليجي الدور الثاني علوي "
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:id="@+id/phone1Damietta"
+                    android:drawablePadding="9dp"
+                    android:drawableRight="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="201144000682+"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+
+
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="Damietta branch"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/text_locationDamiettaEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:textSize="15dp"
+                    android:text="8 Ibn-Marwan st from ElGalaa st"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/phone1DamiettaEN"
+                    android:drawablePadding="9dp"
+                    android:drawableLeft="@android:drawable/stat_sys_phone_call_forward"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"
+                    android:textSize="15dp"
+                    android:text="+201144000682"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                />
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="right|center"-->
+<!--                    android:fontFamily="@font/medium"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:text="الموقع علي الخریطة:"-->
+<!--                    android:textColor="@color/colorTextDetals"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="right|center"-->
+<!--                    android:fontFamily="@font/medium"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:text="45 شارع نجیب الریحاني الازبكیة وسط البلد القاهرة"-->
+<!--                    android:textColor="@color/colorTextDetals"-->
+<!--                    />-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="right|center"-->
+<!--                    android:fontFamily="@font/medium"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:text="Location on maps:"-->
+<!--                    android:textColor="@color/colorTextDetals"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="right|center"-->
+<!--                    android:fontFamily="@font/medium"-->
+<!--                    android:textSize="15dp"  -->
+<!--                    android:text="45 شارع نجیب الریحاني الازبكیة وسط البلد القاهرة"-->
+
+<!--                    android:textColor="@color/colorTextDetals"-->
+<!--                    />-->
+<!--            </LinearLayout>-->
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="#000"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                />-->
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="3sp"
+                    android:text="تواصل معنا "
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:paddingTop="7dp"
+                        android:paddingBottom="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <!--موقع الشركة"-->
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginRight="11dp"
+                            android:id="@+id/liner_webSite"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:src="@drawable/net"
+                                />
+                            <!--                <TextView-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="موقع الشركة"-->
+                            <!--                    android:gravity="right|center"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_marginRight="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:gravity="right|center"
+                                android:text="www.Sharpestlaser.com"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+
+                            <!--                <ImageView-->
+                            <!--                    android:layout_width="30dp"-->
+                            <!--                    android:layout_height="30dp"-->
+                            <!--                    android:src="@drawable/net"-->
+                            <!--                    />-->
+                            <!--                <TextView-->
+
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="Website"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <!--                <TextView-->
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="www.Sharpestlaser.com"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                        </LinearLayout>
+
+                        <!--             واتس اب-->
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginRight="11dp"
+                            android:id="@+id/linear_Whatsapp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:tint="@color/colorApp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:src="@drawable/whatsapp"
+                                />
+
+                            <!--                <TextView-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="واتس اب"-->
+                            <!--                    android:gravity="right|center"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_marginRight="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:gravity="right|center"
+                                android:text="+201144000680"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <!--                <TextView-->
+
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="WhatsApp"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <!--                <TextView-->
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="+201144000680"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+                        </LinearLayout>
+
+                        <!--             انستجرام -->
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginRight="11dp"
+                            android:id="@+id/linear_Instagram"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:src="@drawable/instagram"
+                                />
+                            <!--                <TextView-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text=" انستجرام"-->
+                            <!--                    android:gravity="right|center"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_marginRight="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:gravity="right|center"
+                                android:text="https://www.instagram.com/sharpestlaser/"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <!--                <TextView-->
+
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="Instagram"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <!--                <TextView-->
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="https://www.instagram.com/sharpestlaser/"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:paddingTop="7dp"
+                        android:paddingBottom="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <!--             Twitter -->
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginRight="11dp"
+                            android:id="@+id/linear_Twitter"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:src="@mipmap/twitter"
+                                />
+
+                            <!--                <TextView-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="تویتر"-->
+                            <!--                    android:gravity="right|center"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_marginRight="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:gravity="right|center"
+                                android:text="https://twitter.com/sharpestlaser"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <!--                <TextView-->
+
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="Twitter"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <!--                <TextView-->
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="https://twitter.com/sharpestlaser"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+                        </LinearLayout>
+
+                        <!--             YouTube -->
+                        <LinearLayout
+                            android:layout_marginRight="11dp"
+                            android:id="@+id/linear_YouTube"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:scaleType="fitXY"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:src="@drawable/youtube"
+                                />
+
+                            <!--                <TextView-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="یوتیوب"-->
+                            <!--                    android:gravity="right|center"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_marginRight="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:gravity="right|center"
+                                android:text="https://www.youtube.com/user/smtlaser"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <!--                <TextView-->
+
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="YouTube"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+
+                            <!--                <TextView-->
+                            <!--                    android:gravity="left|center"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_gravity="right|center"-->
+                            <!--                    android:fontFamily="@font/medium"-->
+                            <!--                    android:textSize="15dp"-->
+                            <!--                    android:text="https://www.youtube.com/user/smtlaser"-->
+                            <!--                    android:textColor="@color/colorTextDetals"-->
+                            <!--                    />-->
+                        </LinearLayout>
+
+
+
+                        <!--             :الخط الساخن الالكتروني -->
+                        <LinearLayout
+                            android:layout_marginRight="11dp"
+                            android:id="@+id/linear_Ehotline"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:scaleType="fitXY"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:src="@drawable/tel"
+                                />
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:text=":الخط الساخن الالكتروني"
+                                android:gravity="right|center"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:gravity="right|center"
+                                android:text="www.45000.tel"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <TextView
+                                android:visibility="gone"
+
+                                android:gravity="left|center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:text="E-hotline:"
+                                android:textColor="@color/colorTextDetals"
+                                />
+
+                            <TextView
+                                android:visibility="gone"
+                                android:gravity="left|center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:textSize="15dp"
+                                android:text="www.45000.tel"
+                                android:textColor="@color/colorTextDetals"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                />
+
+
+
+
+
+
+
+
+
+
+            <!--  contact  contact us   -->
+            
+            <EditText
+                android:id="@+id/ed_name_conttactus"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:gravity="center|right"
+                android:hint="الاسم "
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/busin1"
+                android:layout_marginTop="22dp"
+                />
+
+
+            <EditText
+                android:id="@+id/ed_email_conttactus"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:gravity="center|right"
+                android:hint="الايميل"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/busin1"
+                android:layout_marginTop="22dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/ed_phone_conttactus"
+                android:inputType="phone"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center|right"
+                android:gravity="center|right"
+                android:hint="رقم الهاتف"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/busin1"
+                android:layout_marginTop="22dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/ed_massage_conttactus"
+                android:textColorHint="@color/colorTextDetals"
+                android:paddingTop="11dp"
+                android:layout_gravity="center|right"
+                android:gravity="right|start"
+                android:minHeight="110dp"
+                android:hint="الرسالة"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/busin1"
+                android:layout_marginTop="22dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/bu_add_conttactus"
+                android:textColorHint="@color/colorTextDetals"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ارسال"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/busin"
+                android:layout_marginTop="42dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

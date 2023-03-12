@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    app:cardCornerRadius="22dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+    app:cardMaxElevation="3dp"
+    android:padding="15dp"
+    android:background="#ffffffff">
+
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:id="@+id/a"-->
+<!--        android:gravity="center"-->
+<!--        android:background="#DA5F6A"-->
+<!--        android:src="@drawable/ic_menu_gallery"-->
+<!--        android:scaleType="fitCenter" />-->
+
+    <EditText
+        android:id="@+id/ed_phone_dilog_course"
+        android:layout_margin="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#111111"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center|right"
+        android:inputType="phone"
+        android:hint="يجب اضافه رقم هاتف به واتس اب "
+        />
+
+
+    <EditText
+        android:id="@+id/ed_promoCode_dilog_course"
+        android:layout_margin="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#111111"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center|right"
+        android:hint="ادخل البرومو كود "
+        />
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btn_dialog_ok"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_below="@+id/text_dialog"
+            android:background="@drawable/busin"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffffff" />
+
+
+
+        <Button
+            android:background="@drawable/busin"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/btn_dialog_cansel"
+            android:gravity="center"
+            android:layout_below="@+id/text_dialog"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffffff" />
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

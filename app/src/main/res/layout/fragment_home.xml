@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    tools:context=".Home.ui.HomeFragment">
+
+
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_height="match_parent"
+                    >
+
+                    <!-- first section  -->
+                    <LinearLayout
+                        android:layout_marginBottom="22dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        >
+
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:id="@+id/card_machine"-->
+<!--                            app:cardMaxElevation="5dp"-->
+<!--                            app:cardElevation="5dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@mipmap/toprihgrt"-->
+<!--                            android:layout_margin="22dp"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            >-->
+                            <LinearLayout
+                                android:id="@+id/card_machine"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:orientation="vertical"
+                                android:weightSum="2"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                >
+
+<!--                                android:background="@mipmap/toprihgrt"-->
+
+                                <ImageView
+                                    android:src="@mipmap/machice4"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    ></ImageView>
+                                <TextView
+                                    android:layout_marginTop="11dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18.8sp"
+                                    android:textColor="#1a3556"
+                                    android:letterSpacing="0.04"
+                                    android:lineSpacingExtra="1.3sp"
+                                    android:gravity="center"
+                                    android:text="الماكينات"
+                                    />
+
+                            </LinearLayout>
+
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:id="@+id/card_picemachine"-->
+<!--                            android:background="@color/colorApp"-->
+<!--                            android:layout_margin="22dp"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            app:cardMaxElevation="5dp"-->
+<!--                            app:cardElevation="5dp"-->
+<!--                            android:layout_height="match_parent"-->
+                            >
+
+                            <LinearLayout
+                                android:id="@+id/card_picemachine"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:orientation="vertical"
+                                android:weightSum="2"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                >
+<!--                                android:background="@mipmap/toplift"-->
+                                <ImageView
+                                    android:src="@mipmap/pice_prodect1"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    ></ImageView>
+                                <TextView
+                                    android:layout_marginTop="11dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18.8sp"
+                                    android:textColor="#1a3556"
+                                    android:letterSpacing="0.04"
+                                    android:lineSpacingExtra="1.3sp"
+                                    android:gravity="center"
+                                    android:text="قطع الغيار"
+                                    />
+
+
+                            </LinearLayout>
+
+<!--                        </androidx.cardview.widget.CardView>-->
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+                    <!-- 2 section  -->
+                    <LinearLayout
+                        android:layout_marginTop="24dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        >
+
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:id="@+id/card_service"-->
+<!--                            app:cardMaxElevation="5dp"-->
+<!--                            app:cardElevation="5dp"-->
+<!--                            app:cardPreventCornerOverlap="true"-->
+<!--                            android:background="@color/colorApp"-->
+<!--                            android:layout_margin="22dp"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            >-->
+
+                            <LinearLayout
+                                android:id="@+id/card_service"
+                                android:layout_width="0dp"
+                                android:orientation="vertical"
+                                android:weightSum="2"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                >
+<!--                                android:background="@mipmap/bu_rihgt"-->
+
+                                <ImageView
+                                    android:src="@drawable/machine"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    ></ImageView>
+                                <TextView
+                                    android:layout_marginTop="11dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18.8sp"
+                                    android:textColor="#1a3556"
+                                    android:letterSpacing="0.04"
+                                    android:lineSpacingExtra="1.3sp"
+                                    android:gravity="center"
+                                    android:text="الخدمات"
+                                    />
+
+
+                            </LinearLayout>
+
+<!--                        </androidx.cardview.widget.CardView>-->
+
+
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:id="@+id/card_courses"-->
+<!--                            app:cardMaxElevation="5dp"-->
+<!--                            app:cardElevation="5dp"-->
+<!--                            app:cardPreventCornerOverlap="true"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@color/colorApp"-->
+<!--                            android:layout_margin="22dp"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            >-->
+                            <LinearLayout
+                                android:id="@+id/card_courses"
+                                android:layout_width="0dp"
+                                android:orientation="vertical"
+                                android:weightSum="2"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                >
+<!--                                android:background="@mipmap/bu_lift"-->
+
+                                <ImageView
+                                    android:src="@mipmap/cunactus"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    ></ImageView>
+                                <TextView
+                                    android:layout_marginTop="11dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18.8sp"
+                                    android:textColor="#1a3556"
+                                    android:letterSpacing="0.04"
+                                    android:lineSpacingExtra="1.3sp"
+                                    android:gravity="center"
+                                    android:text="الدورات التدريبية"
+                                    />
+
+
+
+                            </LinearLayout>
+
+<!--                        </androidx.cardview.widget.CardView>-->
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageview_accounsdt_profile"-->
+<!--                    android:layout_width="130dp"-->
+<!--                    android:layout_height="130dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:src="@mipmap/sharpestlogo"-->
+<!--                    android:layout_centerInParent="true"/>-->
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageview_account_profile"
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+                    android:visibility="visible"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/sharpestlogo1"
+                    android:layout_centerInParent="true"
+                     />
+<!--                app:civ_border_color="#ddd"-->
+<!--                app:civ_border_width="2dp"-->
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:visibility="gone"
+                    android:id="@+id/imageview_account_fprofile"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/circal_withe"
+                    android:layout_centerInParent="true"
+                    app:civ_border_color="#1f2f44"
+                    app:civ_border_width="2dp" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/imageview_accounsdt_profile_old"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:scaleType="center"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/sharpest_logo"
+                    android:layout_centerInParent="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:visibility="gone"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardMaxElevation="5dp"
+                    app:cardElevation="5dp"
+                    android:layout_width="222dp"
+                    android:layout_height="222dp"
+                    android:layout_centerInParent="true"
+                    />
+
+
+
+            </RelativeLayout>
+
+<!--            <androidx.core.widget.NestedScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                >-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    >-->
+<!--                    <TextView-->
+<!--                        android:layout_gravity="center|right"-->
+<!--                        android:gravity="center|right"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:layout_marginBottom="29dp"-->
+<!--                        android:layout_marginTop="40dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textColor="#1a3556"-->
+<!--                        android:fontFamily="@font/hacenalgeria"-->
+<!--                        android:lineSpacingExtra="-11sp"-->
+<!--                        android:text="الاكثر مبيعا"-->
+<!--                        />-->
+
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:weightSum="2"-->
+<!--                            >-->
+
+<!--                            <androidx.recyclerview.widget.RecyclerView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:id="@+id/recycal_allcatigry"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                >-->
+<!--                            </androidx.recyclerview.widget.RecyclerView>-->
+
+
+<!--                        </LinearLayout>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_marginTop="65dp"-->
+<!--                        android:layout_marginLeft="22dp"-->
+<!--                        android:layout_marginRight="22dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        app:cardUseCompatPadding="true"-->
+<!--                        app:cardElevation="5dp"-->
+<!--                        app:cardCornerRadius="12dp"-->
+<!--                        >-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:orientation="vertical"-->
+<!--                            >-->
+
+<!--                            <TextView-->
+<!--                                android:fontFamily="@font/hacenalgeria"-->
+<!--                                android:padding="12dp"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textSize="14sp"-->
+<!--                                android:textColor="#1a3556"-->
+<!--                                android:lineSpacingExtra="-7sp"-->
+<!--                                android:text="أحدث الدورات التدريبية"-->
+<!--                                />-->
+<!--                            <com.daimajia.slider.library.SliderLayout-->
+<!--                                android:id="@+id/slider"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="190dp"-->
+<!--                                android:layout_marginBottom="15dp"-->
+<!--                                />-->
+<!--                        </LinearLayout>-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+
+
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.core.widget.NestedScrollView>-->
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UI.Produect_Categry">
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="19dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:gravity="center"
+            android:id="@+id/text_name_partlist_Home"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:textSize="22dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="المنتجات" />
+
+
+        <ImageView
+            android:id="@+id/image_changeList_prodect_category"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:background="@drawable/ic_view_module"
+            android:textColor="#fff"
+            android:layout_alignParentLeft="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </RelativeLayout>
+
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycal_allcatigry"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

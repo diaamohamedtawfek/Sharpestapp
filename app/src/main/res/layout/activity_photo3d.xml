@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".UI.service_Responce.Photo3d">
+
+    <LinearLayout
+        android:paddingBottom="44dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="-9sp"
+            android:text="اطلب الخدمة"
+            />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:lineSpacingExtra="38sp"
+            android:gravity="end"
+            android:text="التصوير ثلاثي الابعاد "
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            />
+
+        <TextView
+            android:id="@+id/price_offer"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:lineSpacingExtra="38sp"
+            android:gravity="end"
+            android:text=""
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            />
+
+        <EditText
+            android:id="@+id/text_name_3d"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_person"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="اسم العميل"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/text_phone_3d"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_phone"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="التليفون"
+            android:inputType="phone"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            />
+
+        <EditText
+            android:id="@+id/text_location_3d"
+            android:drawableLeft="@mipmap/location"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_location"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="العنوان"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/text_photo_request_3d"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_file"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="المنتج المطلوب تصويره"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/text_cualety_3d"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_sync_black_24dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="الخامة المستخدمة"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/text_dimantion_3d"
+            android:paddingTop="6dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@mipmap/dimensions"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="الابعاد والسمك"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+        <EditText
+            android:id="@+id/text_file_request_3d"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/ic_file"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:hint="صيغة الملف المطلوب حفظها"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/busin2"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            />
+
+
+        <Button
+            android:id="@+id/bu_request_3d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/busin"
+            android:text="اطلب الأن"
+            android:textColor="#fff"
+            android:textSize="23dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

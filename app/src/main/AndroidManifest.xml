@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Sharpest.sharpestapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appimage"
+        android:roundIcon="@mipmap/appimage_cir"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name = "com.Sharpest.sharpestapp.service"/>
+
+        <activity android:name="com.Sharpest.sharpestapp.UI.UpDateProfile" />
+        <activity android:name="com.Sharpest.sharpestapp.Home.NewHome" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.service_Responce.DesginAndPrograming" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.service_Responce.Photo3d" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.service_Responce.Seana" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.Details_CourssesActivity" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.Details_ofers_CourssesActivity" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.Details_ProductActivity" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.Details_Ofers_ProductActivity" />
+        <activity android:name="com.Sharpest.sharpestapp.UI.Produect_Categry" />
+
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.Sharpest.sharpestapp.Home.Home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.Sharpest.sharpestapp.Login_Signup.SignUp" />
+        <activity android:name="com.Sharpest.sharpestapp.Login_Signup.Login" />
+        <activity android:name="com.Sharpest.sharpestapp.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.Sharpest.sharpestapp.sevicess.LocationMonitoringService" />
+    </application>
+
+</manifest>

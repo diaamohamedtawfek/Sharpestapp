@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    tools:context=".UI.Details_ProductActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_detailes_Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+
+                    android:layout_marginRight="11dp"
+                    android:text="اسم المنتج "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/nameProduct_DetalesProduct"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorTextDetals"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <LinearLayout
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text="الموديل "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/name_model_detalesProdect"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linear_power_detalsProduct"
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text="القدرة "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/power_detalesProduct"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_power"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linearColing"
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text=" التبريد "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_colling"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_colling"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linearcharge"
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text=" الشحن "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_charge"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_charge"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linearheight"
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text=" الطول "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_height"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_height"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linearwidth"
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text=" العرض "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_width"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_width"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+
+            <LinearLayout
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text="تفاصيل أخري "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:visibility="invisible"
+                    android:layout_marginRight="11dp"
+                    android:text="ماكينة اللحام بالليزر "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recycal_allcatigry"
+                android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/linear_data_machine"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <!--            name-->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="الاسم "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/name_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+                <!--            الموديل-->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="الموديل "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/name_model1_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+                <!--            مساحة العمل-->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="مساحة العمل "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/workingArea_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+                <!--           القدرة -->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="القدرة "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/powar_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=" "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+                <!--           الوظائف (المهام) -->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="الوظائف (المهام) "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/function_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+                <!--           طرابيزة العمل -->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="طرابيزة العمل "
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/workingtable_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+
+                <!--           الكهرباء (الجهد المستخدم) -->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="الكهرباء (الجهد المستخدم)"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/inpoutVolt_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+
+                <!--          الإمتدادت المستخدمة -->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="الإمتدادت المستخدمة"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/support_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+
+                <!--          الوزن الصافي للماكينة -->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="الوزن الصافي للماكينة"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/wight_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+                <!--         price-->
+                <LinearLayout
+                    android:layout_marginTop="11pt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle_shape"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"
+                        />
+
+                    <TextView
+                        android:layout_marginRight="11dp"
+                        android:text="السعر"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorApp"
+                        />
+
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/price_detalesProdect"
+                        android:layout_marginRight="11dp"
+                        android:text=""
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextDetals2"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1pt"
+                    android:background="#ddd"
+                    android:layout_marginTop="8dp"
+
+                    />
+
+                <!--         ofger-->
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_ofer"
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text="قيمه العرض"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:id="@+id/offer_price_detalesProdect"
+                    android:layout_marginRight="11dp"
+                    android:text=" "
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/linear_ofer_view"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+            <!--         مواصفات فنية أخري -->
+            <LinearLayout
+                android:layout_marginTop="11pt"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_shape"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    />
+
+                <TextView
+                    android:layout_marginRight="11dp"
+                    android:text="مواصفات فنية أخري"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorApp"
+                    />
+
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:id="@+id/Technical_Specifications_detalesProdect"
+                    android:layout_marginRight="11dp"
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextDetals2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="1pt"
+                android:background="#ddd"
+                android:layout_marginTop="8dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- button add request -->
+        <LinearLayout
+            android:id="@+id/linaer_addRequest_detaliesProduct"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="42dp"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/textback"
+            android:layout_gravity="center|left"
+            android:gravity="center|left"
+            >
+
+
+            <TextView
+                android:id="@+id/textbu"
+                android:paddingBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:lineSpacingExtra="8sp"
+                android:text="طلب عرض سعر"
+                />
+
+            <ImageView
+                android:paddingRight="11dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/back"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

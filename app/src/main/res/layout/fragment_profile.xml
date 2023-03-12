@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:layoutDirection="rtl"
+    tools:context=".Home.ui.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="7"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/rel_seana"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="175dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="22dp"
+                    android:background="#fff"
+                    android:padding="31dp"
+                    android:src="@drawable/a11"></ImageView>
+<!--                android:src="@mipmap/a1"-->
+
+                <LinearLayout
+                    android:layout_gravity="center|right"
+                    android:gravity="center|right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:layout_marginRight="195dp"
+                    android:layout_marginLeft="33dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorApp">
+
+                    <TextView
+                        android:layout_marginRight="23dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:textColor="#ffffff"
+                        android:gravity="center|right"
+                        android:layout_gravity="center|right"
+                        android:text="الصيانة والدعم الفني "
+                        />
+
+                    <TextView
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="25dp"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="11dp"
+                        android:textSize="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/busin1"
+                        android:textColor="#99b73c"
+                        android:lineSpacingExtra="4sp"
+                        android:text="اطلب الخدمة "
+                        android:drawableLeft="@mipmap/verified"
+                        />
+<!--                    android:layout_width="92dp"-->
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:id="@+id/rel_desgin_programing"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="175dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="22dp"
+                    android:background="#fff"
+                    android:padding="31dp"
+                    android:src="@drawable/a12"></ImageView>
+<!--                android:src="@mipmap/a1"-->
+
+                <LinearLayout
+                    android:layout_gravity="center|right"
+                    android:gravity="center|right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:layout_marginRight="195dp"
+                    android:layout_marginLeft="33dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorApp">
+
+                    <TextView
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="23dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:textColor="#ffffff"
+                        android:gravity="end"
+                        android:text="التصميم والبرمجة "
+                        />
+
+                    <TextView
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="25dp"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="11dp"
+                        android:textSize="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/busin1"
+                        android:textColor="#99b73c"
+                        android:lineSpacingExtra="4sp"
+                        android:text="اطلب الخدمة "
+                        android:drawableLeft="@mipmap/verified"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_photo3d"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="175dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="22dp"
+                    android:src="@drawable/a13"
+                    android:padding="31dp"
+                    android:background="#fff"></ImageView>
+<!--                android:src="@mipmap/a1"-->
+
+                <LinearLayout
+                    android:layout_gravity="center|right"
+                    android:gravity="center|right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:layout_marginRight="195dp"
+                    android:layout_marginLeft="33dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorApp">
+
+                    <TextView
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="23dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:textColor="#ffffff"
+                        android:gravity="center|right"
+                        android:text="التصوير ثلاثي الابعاد "
+                        />
+
+                    <TextView
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="25dp"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="11dp"
+                        android:textSize="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/busin1"
+                        android:textColor="#99b73c"
+                        android:text="اطلب الخدمة "
+                        android:drawableLeft="@mipmap/verified"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rel_photo3d"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                >-->
+
+<!--                <ImageView-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="175dp"-->
+<!--                    android:src="@mipmap/a1"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_marginRight="22dp"-->
+<!--                    android:layout_marginTop="30dp"-->
+<!--                    ></ImageView>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_marginTop="70dp"-->
+<!--                    android:layout_width="190dp"-->
+<!--                    android:layout_height="105dp"-->
+<!--                    android:layout_marginRight="145dp"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:background="@color/colorApp">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_marginRight="10dp"-->
+<!--                        android:fontFamily="@font/medium"-->
+<!--                        android:layout_marginTop="17dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:textSize="16dp"-->
+<!--                        android:textColor="#ffffff"-->
+<!--                        android:lineSpacingExtra="38sp"-->
+<!--                        android:gravity="end"-->
+<!--                        android:text="التصوير ثلاثي الابعاد "-->
+<!--                        />-->
+
+<!--                    <TextView-->
+<!--                        android:fontFamily="@font/medium"-->
+<!--                        android:paddingLeft="11dp"-->
+<!--                        android:paddingRight="11dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:layout_marginTop="11dp"-->
+<!--                        android:layout_marginRight="11dp"-->
+<!--                        android:textSize="13dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:background="@drawable/busin1"-->
+<!--                        android:textColor="#99b73c"-->
+<!--                        android:lineSpacingExtra="4sp"-->
+<!--                        android:text="اطلب الخدمة "-->
+<!--                        android:drawableLeft="@mipmap/verified"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+<!--            </RelativeLayout>-->
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

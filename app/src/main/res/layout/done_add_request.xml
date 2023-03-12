@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/massage_alirt"
+        android:layout_marginTop="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:lineSpacingExtra="3sp"
+        android:text="تم ارسال الطلب
+وسيتم التواصل معك في اسرع وقت"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/image_aliert_detalesProdect"
+            android:src="@mipmap/sharpest_logo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            />
+        <TextView
+            android:id="@+id/name_aliert_detalesProdect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="11dp"
+            android:textColor="#403e3e"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="-4sp"
+            android:text="ماكينة اللحام بالليزر"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bu_done_addAdvice2"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:textSize="14dp"
+        android:textColor="#ffffff"
+        android:text="الذهاب الي الصفحه الرئيسية"
+        android:layout_margin="22dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home.uiFragment.MyOrder">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:padding="12dp"
+            android:id="@+id/text_toatelcopoun"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" مجموع النقاط : "
+            android:textSize="14dp"
+            android:textColor="@color/colorApp"
+            />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            app:itemTextAppearance="@style/Style_TextView_in_menu"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabLayout
+                android:theme="@style/BottomNavigationTheme"
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemTextAppearance="@style/Style_TextView_in_menu"
+                app:tabTextAppearance="@style/MineCustomTabText"
+                app:tabSelectedTextColor="#fff"
+                app:tabIndicatorColor="#fff"
+                app:tabTextColor="#fff">
+
+            </com.google.android.material.tabs.TabLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+
+            android:theme="@style/BottomNavigationTheme"
+            app:itemTextAppearance="@style/Style_TextView_in_menu"
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:background="@android:color/white"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
